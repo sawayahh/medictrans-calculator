@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.info-boxes h2 {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0 0 0.5rem;
+}
+
+hr {
+  background-color: white;
+}
+
+.title {
+  background-color: #09015f;
+  color: white;
+  text-align: center;
+  padding: 1rem 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.container {
+
+  text-align: center;
+}
+
+.info-boxes {
+  /* border: 1px solid; */
+  padding: 1rem 0;
+  background-color: #af0069;
+  color: #000;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+.text-boxes {
+  width: 9rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: red;
+}
+
+.labels {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.buttons {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: #3b5360;
+  color: white;
+  padding: 1rem;
+  margin: 1rem 0 0;
+}
+
+.output-effect {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+}

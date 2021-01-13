@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wellryde Billing Calculator</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+
+    <div class="title">
+      <h1>Medictrans - Billing Calculator<i class="fas fa-calculator icon"></i></h1>
+
+    </div>
+
+
+    <!-- Ambulatory -->
+    <div id="ambulatory" class="info-boxes">
+
+      <h2>AMBULATORY <i class="fas fa-ambulance"></i></h2>
+      <hr>
+      <div class="input">
+
+        <label class="labels" for="ambulatory">Trip Miles:
+          <input id="ambulatory-textbox" class="text-boxes" type="text" name="ambulatory" value="">
+        </label>
+
+        <button id="ambulatory-button" class="btn btn-primary buttons" type="button" name="calculate-ambulatory">Calculate</button>
+
+      </div>
+
+      <hr>
+
+      <div class="output">
+
+        <p>Billable Amount for this Trip = <span id="ambulatory-output"></span></p>
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Wheelchair -->
+
+    <div class="info-boxes">
+
+      <h2>WHEELCHAIR <i class="fas fa-wheelchair"></i></h2>
+      <hr>
+      <div class="input">
+
+        <label class="labels" for="wheelchair">Trip Miles:
+          <input id="wheelchair-textbox" class="text-boxes" type="text" name="wheelchair" value="">
+        </label>
+        <button id="wheelchair-button" class="btn btn-primary buttons" type="button" name="calculate-ambulatory">Calculate</button>
+      </div>
+
+      <hr>
+
+      <div class="output">
+        <p>Billable Amount for this Trip = <span id="wheelchair-output"></span> </p>
+      </div>
+
+
+
+    </div>
+
+
+
+    <!-- Stretcher -->
+    <div class="info-boxes">
+      <h2>STRETCHER <i class="fas fa-procedures"></i></h2>
+      <hr>
+      <div class="input">
+        <label class="labels" for="stretcher">Trip Miles:
+          <input id="stretcher-textbox" class="text-boxes" type="text" name="stretcher" value="">
+        </label>
+
+        <button id="stretcher-button" class="btn btn-primary buttons" type="button" name="calculate-ambulatory">Calculate</button>
+      </div>
+      <hr>
+
+      <div class="output">
+        <p id="">Billable Amount for this Trip = <span id="stretcher-output"></span> </p>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <script src="https://kit.fontawesome.com/cd0311ff52.js" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+<div class="footer">
+  <p>copyright Medictrans 2021</p>
+</div>
+
+
+
+</html>
